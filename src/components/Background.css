@@ -1,0 +1,84 @@
+.header{
+    width: 100vw;
+
+}
+
+/* Background.css */
+/* .Background-image{
+    background-image: url('./bridge-7675585.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  position: relative;
+    align-items: center;
+    text-align: center;
+  
+} */
+.Background-image {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.Background-image::before {
+  content: "";
+  background-image: url('./bridge-7675585.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+filter: blur(2px);
+}
+
+.search-container {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    z-index: 2;
+    transform: translate(-50%, -50%); 
+    display: flex;
+  
+    width: 36rem;
+  }
+  
+  @media (max-width: 500px) {
+    .search-container {
+      width: 20rem;
+    }
+  }
+.search-container input[type="text"] {
+    width: 100%;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  
+
+  .search-container input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    
+  } 
+  
+  

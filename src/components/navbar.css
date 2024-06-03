@@ -1,0 +1,11 @@
+.navbar-custom{
+    background-color: #1E202B;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}

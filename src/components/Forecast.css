@@ -1,0 +1,56 @@
+/* Forecast.css */
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 100vw;
+    background-color: #1E202B; /* light background for contrast */
+    
+}
+  
+  .forecast-card {
+    flex: 0 0 auto; 
+    margin: 10px;
+    padding: 20px;
+    background-color: #323544;
+    border: 1px solid #1E202B;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #323544;
+    text-align: center;
+  }
+  
+  .forecast-card .day {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: wheat;
+  }
+  
+  .forecast-card .date {
+    color: #888;
+    margin-bottom: 10px;
+    color: #BFB6A0;
+  }
+  
+  .forecast-card .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-card .temperature {
+    font-size: 1.1em;
+  }
+  
+  .forecast-card .temperature .high {
+    color: #e74c3c; /* red for high temperature */
+    margin-right: 5px;
+  }
+  
+  .forecast-card .temperature .low {
+    color: #3498db; /* blue for low temperature */
+  }
+  
+  
